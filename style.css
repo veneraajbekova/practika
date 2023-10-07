@@ -1,0 +1,222 @@
+@font-face {
+    font-family:'Krona One', sans-serif;
+    src: url();
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap{
+    width: 1920px;
+    height: 5335px;
+    background: #fff;
+}
+
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto 0 auto;
+}
+
+.header__content-title{
+    color: #151515;
+    font-family: Krona One;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 52pc;
+    top: 4pc;
+}
+
+.hero__content__info{
+    width: 1132px;
+    position: absolute;
+    left:25pc;
+    top: 20pc;
+}
+
+.hero__content__info-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 3px solid #FFF;
+    background: rgba(255, 255, 255, 0.00);
+    width: 236px;
+    height: 44px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 20pc;
+    left:28pc;
+
+}
+
+
+.hero__content__info-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Krona One;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+
+
+.hero__content__info{
+    padding: 326px 394px 52p4x 394px;
+}
+
+.info-title{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Krona One';
+    font-size: 96px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+
+.about__info{
+    flex: 1;
+}
+
+.about-image-wrap{
+    flex: 1;
+}
+
+.about-image{
+    width: 956px;
+    height: 1081px;
+    flex-shrink: 0;
+}
+
+.about__content__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__info-text{
+    max-width: 680px;
+}
+
+.about__content__info-title{
+    color: #151515;
+    font-family: Krona One;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 23px;
+}
+
+.about__content__info-text{
+    color: #151515;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 193%;
+    width:680px;
+    margin: 20px 143px;
+}
+/* .gallery{
+    margin: 100%;
+    height: 100%;
+}  */
+ .gallery-title{
+    color: rgb(255, 255, 255);
+font-family: Krona One;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+margin: -124pc -47pc;
+} 
+ .box {
+    height: 12pc -45pc;
+margin:-4pc -60pc;
+
+ /* height: 900pc -30pc;  */
+} 
+.gallery__images img{
+    width: 100%;
+    height: 100%;
+     object-fit: cover; 
+}
+.gallery__images{
+    display: grid;
+    grid-template-columns: 1f 1f 1f  ;
+    gap: 10px;
+    margin: 130pc -60pc;
+    
+}
+ .rom-long{
+    grid-row: 2/4;
+    
+}
+.big{
+    grid-row: 2/4;
+    grid-column: 2/4;
+}  
+    
+
+.gallery__images img{
+    width: 100%;
+    height: 100%;
+     object-fit: cover; 
+}
+.contacts__content-title{
+    color: #151515;
+    font-family: Krona One;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 222pc 67pc;
+    background: #151515;
+}
+/* .contacts__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+    
+.contacts__content__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts__content__form-input{
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border: none;
+
+    color: #000;
+font-family: Poppins;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+padding: 1 43pc;
+margin: -200pc  0pc;
+}
